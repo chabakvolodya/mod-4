@@ -14,8 +14,8 @@ public class Circle extends Figure{
     @Override
     public double getArea() {
 
-        area = (r * r) * Math.PI;
-        return super.getArea();
+        this.area = (r * r) * Math.PI;
+        return area;
     }
 
 }

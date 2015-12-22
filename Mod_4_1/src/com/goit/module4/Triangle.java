@@ -16,8 +16,8 @@ public class Triangle extends Figure{
     @Override
     public double getArea() {
 
-        area = (a * h)/2;
-        return super.getArea();
+        this.area = (a * h)/2;
+        return area;
     }
 
 }

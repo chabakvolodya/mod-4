@@ -15,7 +15,7 @@ public class Rectangle extends Figure{
     @Override
     public double getArea() {
 
-        area = a * b;
-        return super.getArea();
+        this.area = a * b;
+        return area;
     }
 }

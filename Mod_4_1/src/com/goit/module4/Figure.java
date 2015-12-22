@@ -6,9 +6,6 @@ package com.goit.module4;
 public abstract class Figure {
     protected double area;
 
-    public double getArea()
-    {
-        return area;
-    }
+    public abstract double getArea();
 
 }
