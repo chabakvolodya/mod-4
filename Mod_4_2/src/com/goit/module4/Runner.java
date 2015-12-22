@@ -6,9 +6,9 @@ package com.goit.module4;
 public class Runner {
     public static void main(String[] args) {
 
-        TemperatureConverterUtils.fahrenheitToCelsius(504.0f);
+        System.out.println(TemperatureConverterUtils.fahrenheitToCelsius(504.0f));
 
-        TemperatureConverterUtils.celsiusToFahrenheit(262.22223f);
+        System.out.println(TemperatureConverterUtils.celsiusToFahrenheit(262.22223f));
 
     }
 }

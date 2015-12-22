@@ -9,6 +9,7 @@ public class Runner {
         Point p1 = new Point(2, 5);
         Point p2 = new Point(5, 7);
 
-        DistanceUtils.distanceTwoPoint(p1, p2);
+        System.out.println(DistanceUtils.distanceTwoPoint(p1, p2));
+
     }
 }

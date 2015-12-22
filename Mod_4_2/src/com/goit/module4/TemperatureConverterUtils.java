@@ -7,13 +7,15 @@ public class TemperatureConverterUtils {
 
     private static float result;
 
-    public static void fahrenheitToCelsius(float temp)  {
+    public static float fahrenheitToCelsius(float temp)  {
         result = (temp - 32) * 5 / 9;
-        System.out.println(result);
+
+        return result;
     }
 
-    public static void celsiusToFahrenheit(float temp)  {
+    public static float celsiusToFahrenheit(float temp)  {
         result = temp * 9 / 5 + 32;
-        System.out.println(result);
+
+        return result;
     }
 }
